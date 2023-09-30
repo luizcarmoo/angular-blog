@@ -1,0 +1,34 @@
+.container__small-card {
+  width: 100%;
+  height: 100px;
+  margin-top: 15px;
+}
+
+.container__small-card-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.small-card__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-card__title > a {
+  font-size: 1rem;
+  font-weight: 300;
+  text-decoration: none;
+  color: #c5c5c5;
+  margin-left: 10px;
+  line-height: 30px
+}
+
+.small-card__image img {
+  width: 200px;
+  height: auto;
+}
+
+.container__small-card > hr {
+  color: #1a1a1a;
+}
