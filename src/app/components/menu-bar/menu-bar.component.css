@@ -15,3 +15,10 @@
 .container__menu-bar > ul > li > a {
   text-decoration: none;
 }
+
+.container__menu-bar > ul > li:hover {
+  scale: 1.1;
+}
+.container__menu-bar > ul > li > a:hover {
+  color: aqua;
+}
