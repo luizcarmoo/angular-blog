@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +7,14 @@ import { Component } from '@angular/core';
     './home.component.css',
     './home.responsive.component.css']
 })
-export class HomeComponent {
+export class HomeComponent implements OnInit {
+
+  externalUrl:string = ""
+
+  constructor() { }
+
+  ngOnInit(): void {
+    
+  }
 
 }

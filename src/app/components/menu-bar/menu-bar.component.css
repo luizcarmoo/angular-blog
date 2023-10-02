@@ -5,7 +5,8 @@
 .container__menu-bar > ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 50px;
 }
 
 .container__menu-bar > ul > li {
